@@ -1,0 +1,23 @@
+#sidebarleft
+{
+  text-align: center;
+  height: auto;
+  padding: 10px;
+}
+#sidebarright
+{
+    text-align: center;  
+    height: 500px;
+    padding: 10px;
+}
+#middle
+{ 
+    text-align: center;    
+    height: auto;
+}
+
+#navbar
+{
+  background: black;
+  color: white;
+}
