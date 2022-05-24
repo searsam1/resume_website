@@ -53,8 +53,8 @@
   padding: 10px;
   color: white;
   text-align: center;
-  position:relative;
-  z-index:-1;
+  /*position:relative;
+  z-index:-1;*/ /* Causes Btn to not work inside .Body */
   padding: 35px;
   font-family: roman;
 }
@@ -107,5 +107,13 @@
   position: sticky;
   top: 0;
 }
+.dropdown-content
+{
+  display: none;
+}
+.show
+{
+  display: block;
 
+}
 
