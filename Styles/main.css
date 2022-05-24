@@ -1,23 +1,111 @@
-#sidebarleft
-{
-  text-align: center;
-  height: auto;
-  padding: 10px;
-}
-#sidebarright
-{
-    text-align: center;  
-    height: 500px;
-    padding: 10px;
-}
-#middle
-{ 
-    text-align: center;    
-    height: auto;
-}
-
-#navbar
+#Brand
 {
   background: black;
-  color: white;
+  text-align: center;
+  font-family: roman;
+  color: springgreen;
+  padding: 30px;
+  /* box-shadow: 5px 8px 12px 1px mediumaquamarine; */
 }
+
+#Navbar
+{
+  background: black;
+  text-align: center;
+  padding: 30px;
+  
+/*  box-shadow: 10px 1px 20px 1px springgreen; */
+
+}
+#Navbar > a
+{
+  color: springgreen; 
+  text-decoration: none;
+  font-family: roman;
+  font-size: large;
+  padding: 20px;   
+
+}
+#Sidebar
+{
+  background: black;
+  color: mediumspringgreen;
+  padding: 30px;
+  text-align: center;
+  
+
+}
+#Navbar > a:hover { 
+/*  background-color: springgreen;
+  color: black !important;*/
+    
+    color: white !important;
+    font-family: monospace;
+    border-bottom: 1px solid springgreen;
+    
+
+
+    /*box-shadow: 1px 1px 1px 1px mediumaquamarine;*/
+}
+
+#Body {
+  background: blue;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  position:relative;
+  z-index:-1;
+  padding: 35px;
+  font-family: roman;
+}
+
+#Github {
+  background: black;
+  color: mediumspringgreen;
+  padding: 30px;
+  text-align: center; 
+
+}
+#Github > a {
+  text-decoration: none;
+  font-family: monospace;
+}
+#Github > a:hover {
+    text-decoration: none;
+    background-color: blue;
+    color: white !important;
+    box-shadow: 1px 1px 4px 1px mediumaquamarine;
+}
+#Welcome{
+ color: white;
+ box-shadow: 5px 3px 4px 1px black;
+}
+
+.CodeBox{
+  background: lightgrey;
+  color: black;
+  font-family: monospace;
+  text-align: left;
+  padding: 40px;
+  box-shadow: 5px 3px 4px 1px black;
+  
+}
+
+#Foot
+{
+  background: black;
+  padding: 30px;
+  text-align: center;
+}
+
+.container
+{
+  padding: 0px;
+}
+
+#HEAD{
+  position: sticky;
+  top: 0;
+}
+
+
