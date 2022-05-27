@@ -1,3 +1,5 @@
+
+
 #Brand
 {
   background: black;
@@ -17,6 +19,7 @@
 /*  box-shadow: 10px 1px 20px 1px springgreen; */
 
 }
+
 #Navbar > a
 {
   color: springgreen; 
@@ -26,6 +29,7 @@
   padding: 20px;   
 
 }
+
 #Sidebar
 {
   background: black;
@@ -35,6 +39,7 @@
   
 
 }
+
 #Navbar > a:hover { 
 /*  background-color: springgreen;
   color: black !important;*/
@@ -62,20 +67,31 @@
 #Github {
   background: black;
   color: mediumspringgreen;
-  padding: 30px;
   text-align: center; 
+    
+    
 
 }
-#Github > a {
-  text-decoration: none;
-  font-family: monospace;
+
+
+
+
+#linkedinIcon{
+    color: dodgerblue;
+    font-size: 30px;
+    
 }
-#Github > a:hover {
-    text-decoration: none;
-    background-color: blue;
-    color: white !important;
-    box-shadow: 1px 1px 4px 1px mediumaquamarine;
+
+#githubIcon{
+    color: ghostwhite;
+    font-size: 30px;
 }
+
+#stackIcon{
+    color: orangered;
+    font-size: 30px;
+}
+
 #Welcome{
  color: white;
  box-shadow: 5px 3px 4px 1px black;
@@ -108,9 +124,11 @@
   top: 0;
 }
 .dropdown-content
+
 {
   display: none;
 }
+
 .show
 {
   display: block;
