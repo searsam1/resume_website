@@ -1,110 +1,156 @@
-
+/*rgb(117,50,249);*/
+/*box-shadow: 1px 1px 1px 1px rgb(0,0,0,20%);*/
 
 #Brand
 {
-  background: black;
-  text-align: center;
-  font-family: roman;
-  color: springgreen;
-  padding: 30px;
-  /* box-shadow: 5px 8px 12px 1px mediumaquamarine; */
+  color: black; 
+  text-decoration: none;
+  font-size: large;
+    background: rgb(117,50,249);
+    text-align: left;
+    padding: 9px;  
+    text-align: center;
+    background: black;
+    border-bottom: 1px solid goldenrod;
+  
 }
+
+
+
+
 
 #Navbar
 {
-  background: black;
-  text-align: center;
-  padding: 30px;
-  
-/*  box-shadow: 10px 1px 20px 1px springgreen; */
-
+  /*background: rgb(117,50,249);*/
+    background: black;
+  text-align: left;
+    font-size: large;
+    z-index: 1;
+    padding: 12px;  
+     border-bottom: 1px solid goldenrod;
+   
 }
 
 #Navbar > a
 {
-  color: springgreen; 
+  color: rgb(117,50,249); 
   text-decoration: none;
-  font-family: roman;
   font-size: large;
-  padding: 20px;   
-
-}
-
-#Sidebar
-{
-  background: black;
-  color: mediumspringgreen;
-  padding: 30px;
-  text-align: center;
-  
-
+  padding: 12px;   
+    
 }
 
 #Navbar > a:hover { 
 /*  background-color: springgreen;
   color: black !important;*/
-    
-    color: white !important;
-    font-family: monospace;
-    border-bottom: 1px solid springgreen;
-    
+    background-color: black;
+    color: darkgoldenrod;
+    /*box-shadow: 1px 1px 1px 1px rgb(0,0,0,20%);*/
+}
 
-
-    /*box-shadow: 1px 1px 1px 1px mediumaquamarine;*/
+#Sidebar
+{
+  background: rgb(0,0,0,1%);;
+  color: black;/*rgb(117,50,249);*/
+    padding-top: 100px;
+  text-align: center;
+    box-shadow: 1px 1px 1px 1px rgb(0,0,0,4%);
 }
 
 #Body {
-  background: blue;
+  background-color: rgb(0,0,0,1%);
   padding: 10px;
-  color: white;
   text-align: center;
-  /*position:relative;
-  z-index:-1;*/ /* Causes Btn to not work inside .Body */
+  position:relative;
+  z-index:-1;
   padding: 35px;
   font-family: roman;
 }
 
 #Github {
-  background: black;
+  background: rgb(0,0,0,1%);
   color: mediumspringgreen;
   text-align: center; 
-    
-    
-
+      padding: 30px;
+    box-shadow: -1px 1px 1px 1px rgb(0,0,0,4%);
 }
 
-
-
-
-#linkedinIcon{
-    color: dodgerblue;
-    font-size: 30px;
-    
-}
 
 #githubIcon{
-    color: ghostwhite;
-    font-size: 30px;
+    color: rgb(117,50,249);
+/*    color: black;
+    background: white;*/
+    background-clip: content-box;
+    font-size: 24px;
+    padding: 5px
+}
+#githubIcon:hover {
+    color: whitesmoke;
+    
+}
+
+#linkedinIcon{
+    
+    color: rgb(117,50,249);
+/*    color: rgb(10,102,194);
+    background: white;*/
+    background-clip: content-box;
+    font-size: 24px;
+    padding: 5px
+}
+
+#linkedinIcon:hover {
+    color: whitesmoke;;   
 }
 
 #stackIcon{
-    color: orangered;
-    font-size: 30px;
+    color: rgb(117,50,249);
+    /*color: orangered;
+    background: white;*/
+    font-size: 24px;
+    padding: 5px
 }
+#stackIcon:hover {
+    color: whitesmoke;
+    
+}
+
+.purple{
+     color: rgb(117,50,249);
+    text-decoration: none;
+    background-blend-mode: hard-light;
+    
+}
+
+
 
 #Welcome{
- color: white;
- box-shadow: 5px 3px 4px 1px black;
+ color: rgb(117,50,249);
+    border-bottom: 1px solid black;
+    
+/* box-shadow: 5px 3px 4px 1px rgb(0,0,0,20%);*/
+}
+.CodeBox{
+
+  color: rgb(0,0,0);
+  text-align: left;
+    font-size: 15px;
+    padding: 8px;
+    font-family:'Lucida Console',monospace;
+    word-wrap: break-word;
+
 }
 
-.CodeBox{
-  background: lightgrey;
-  color: black;
-  font-family: monospace;
-  text-align: left;
-  padding: 40px;
-  box-shadow: 5px 3px 4px 1px black;
-  
+.display-1
+{
+    
+}
+
+
+.seperator
+{
+    width: 10px;
+    height: 10px
 }
 
 #Foot
@@ -113,25 +159,21 @@
   padding: 30px;
   text-align: center;
 }
-
 .container
 {
   padding: 0px;
+}
+.head {
+    background-color: rgb(117,50,249);
+    text-align: center;
+        padding:20px;
+    border-bottom: 1px solid black;   
+    color: white;   
 }
 
 #HEAD{
   position: sticky;
   top: 0;
-}
-.dropdown-content
-
-{
-  display: none;
-}
-
-.show
-{
-  display: block;
 
 }
 
