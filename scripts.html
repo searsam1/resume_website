@@ -4,106 +4,112 @@
   <!-- Required meta tags -->
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="Styles/main.css" rel="stylesheet"/>
-    
-    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
-     
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+     
+     <script src="code.js"></script>
+     <script src="prism.js"></script>
+     <link href="themes/prism.css" rel="stylesheet" />
+     
+     <div class="head">
+        <h1 class="display-6" id="bigAlec">
+            
+            <!--rgb(0,0,0,10%)-->
+         <p style="color: darkgoldenrod; border-bottom: 1px solid gold; background-image: repeating-linear-gradient(rgb(0,0,0,10%),rgb(0,0,0,20%),rgb(0,0,0,30%));  padding: 10px; font-size: 37px;">Alec Sears <code style="font-size: 10px; color: aliceblue; vertical-align: top;">*</code></p>
+         </h1>
+     </div>
+     
 </head>
 
-
-
-    <div class="container-fluid">
-
     <div class="row" id="HEAD">
-
-      <div class="col-2 pt-5" id="Brand">
-
-        Alec Sears
+      <div class="col-2" id="Brand">
+          <i class="bi bi-person-lines-fill" style="font-size: 21px; color: darkgoldenrod;"></i>
+          
+          
       </div>
-
       <div class="col-8" id="Navbar">
-        <a href="index.html">Home</a>
-        <a href="scripts.html">Scripts</a>
-        <a href="projects.html">Projects</a>
-        <a href="index.html">Tutorials</a>
+          
+        <a href="index.html"><i class="bi bi-house"></i> Home</a>
+        <a href="scripts.html"><i class="bi bi-file-earmark-code"></i> Scripts</a>
+        <a href="projects.html"><i class="bi bi-bar-chart-line"></i> Projects</a>
+        <a href="tutorials.html"><i class="bi bi-terminal"></i> Tutorials</a>
       </div>
-      <div class="col-2 pt-5" id="Brand">
-        About
+      <div class="col-2" id="Brand">
+        <a href="https://github.com/searsam1"> <i class="bi bi-github" id="githubIcon"></i></a>        <a href="https://www.linkedin.com/in/alec-sears-a62946191/"><i class="bi bi-linkedin" id="linkedinIcon"></i></a>
+        <a href="https://stackoverflow.com/users/13060058/prestigedev">
+          <i class="bi bi-stack-overflow" id="stackIcon"></i></a>
       </div>
+        <div class="container p-1" style="background-image: repeating-linear-gradient(rgb(117,50,249,70%),rgb(117,50,249,70%))"></div>
     </div>
+    
     <div class="row">
-
+        
       <div class="col-2" id="Sidebar">
-        Contact Info
+          
+          <b></b><span style="color: blueviolet; font-size: 25px">Alec Sears</span>
+          <br>
+          <br>
+          
 
+
+        <u><i class="bi bi-person-rolodex"></i> Contact Info</u> 
+          <br> <br> <br>
+          <i class="bi bi-telephone-inbound-fill" style="font-size: 30px"></i>
+          <br>
+          f161aa9c
+
+          <br> <br> <br>
+          <i class="bi bi-envelope-plus-fill" style="font-size: 30px"></i>
+          <br>amsears60441<br>
+          @gmail.com
+    
       </div>
-
       <div class="col-8" id="Body">
 
-        <div style="font-size: 30px;" id="Welcome">
-       Scripts :)
-
-        </div> 
-        <br>
-        <div class="btn btn-danger"></div>
-        <div class="btn btn-warning"></div>
-        <div class="btn btn-success"></div>
-        Version **1.00** Alpha Release
-        <div class="btn btn-danger"></div>
-        <div class="btn btn-warning"></div>
-        <div class="btn btn-success"></div>
-        <br><br>
-
-<p>This script uses bash and python to get the seconds passed since epoch. I wrote this because time is a complex matter and the thought occurred to me that I should include it in my file names because it is the same for everyone -(I think)</p>
-<p>Alas, it would be great to describe all the little scripts I write throughout my day but I would be here all day doing that instead of programming!</p>
-<div class="CodeBox">
-  <pre class="prettyprint">
-import os
+          
+          <button class="btn btn-primary" type="button" onclick="displayCodeBlock()">Python Scripts</button>
+          <br>
+          <div id="myDIV">
+              <div id="codeBox" style="display: none;">
+                  <pre><code class="language-python">import os
 from datetime import datetime
 import clipboard
 
 def get_time(epoch=False):
-  os.system("date +%s | pbcopy")
-  time_epoch = int(clipboard.paste())
-  time_in_proper_format = datetime.fromtimestamp(time_epoch).strftime("%A, %B %d, %Y %I:%M:%S")
-  if epoch:
-    return time_epoch
-  return [time_epoch, time_in_proper_format]
-  </pre>
-</div>
-<br>
+	os.system("date +%s | pbcopy")
+	time_epoch = int(clipboard.paste())
+	time_in_proper_format = datetime.fromtimestamp(time_epoch).strftime("%A, %B %d, %Y %I:%M:%S")
+	if epoch:
+		return time_epoch
+	return [time_epoch, time_in_proper_format]
 
-       <script src="code.js"></script>
-      </div>
-      <div class="col-2" id="Github">
+</code></pre>
+
+                  </div>
+              </div>
+            </div>
+          <div class="col-2 p-5" id="Github">
+            <i class="bi bi-currency-bitcoin" style="font-size: 50px; color: gold; text-shadow: 2px 2px rgb(0,0,0,60%);"></i>
+
+              <i class="bi bi-coin" style="font-size: 50px; color: gold; text-shadow: 2px 2px rgb(0,0,0,60%);"></i>
+
+            </div>
         
-        <a href="https://github.com/searsam1"> <i class="bi bi-github" id="githubIcon"></i></a>
-        <br><br>
-        <a href="https://www.linkedin.com/in/alec-sears-a62946191/">
-           <i class="bi bi-linkedin" id="linkedinIcon"></i></a>
-          
-        <br>
-          
-
-          <br>        
-        <a href="https://stackoverflow.com/users/13060058/prestigedev">
-          <i class="bi bi-stack-overflow" id="stackIcon"></i></a>
-        <br>          
-
-      </div>
 
     </div>
 
-</div>
 
 
 <footer>
   <div class="row">
+      <i class="bi bi-box"></i>
     <div class="col-12" id="Foot">
+        <i class="bi bi-box"></i>
       @ alecsears.com
     </div>
+      
   </div>
 
 </footer>

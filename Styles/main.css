@@ -1,6 +1,15 @@
 /*rgb(117,50,249);*/
 /*box-shadow: 1px 1px 1px 1px rgb(0,0,0,20%);*/
 
+.head {
+    background-color: rgb(117,50,249);
+    text-align: center;
+        padding:20px;
+    border-bottom: 1px solid black;   
+    
+}
+
+
 #Brand
 {
   text-decoration: none;
@@ -8,14 +17,14 @@
     text-align: left;
     padding: 9px;  
     text-align: center;
-    background-color: black;
+    background-color: rgb(0,0,0,90%);
     border-bottom: 2px solid rgb(117,50,249);; 
 }
 
 #Navbar
 { 
     text-decoration: none;
-    background-color: black;
+    background-color: rgb(0,0,0,90%);
     font-size: large;
     text-align: left;
     padding: 9px;  
@@ -52,10 +61,7 @@
 #Body {
   background-color: rgb(0,0,0,1%);
   padding: 10px;
-    
   text-align: center;
-  position:relative;
-  z-index:-1;
   padding: 35px;
   font-family: roman;
 }
@@ -131,13 +137,6 @@
 {
   padding: 0px;
 }
-.head {
-    background-color: rgb(117,50,249);
-    text-align: center;
-        padding:20px;
-    border-bottom: 1px solid black;   
-    color: white;   
-}
 
 #HEAD{
   position: sticky;
@@ -148,7 +147,7 @@
 
 
 code{
-    color: darkviolet;
+    color: rgb(117,50,249);;
 }
 
 #box{
@@ -157,3 +156,22 @@ code{
     background-image: repeating-linear-gradient(rgb(0,0,0,10%),rgb(0,0,0,5%),rgb(0,0,0,1%));
     padding: 10px
 }
+
+#codeBox{
+    border-left: 4px solid rgb(117,50,249,100%);
+    border-right: 4px solid rgb(117,50,249,100%);
+    background-image: repeating-linear-gradient(rgb(0,0,0,10%),rgb(0,0,0,5%),rgb(0,0,0,1%));
+    padding: 10px;
+    font-family:  monospace;
+    text-align: left;
+    margin-top: 10px;
+        
+}
+
+
+
+
+
+
+
+

@@ -1,5 +1,9 @@
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function fuck() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+
+function displayCodeBlock() {
+    let state = document.getElementById("codeBox");
+
+    state.style.display === "none" ? 
+        state.style.display = "block" : state.style.display = "none";
+    return state;
+    }
+    
